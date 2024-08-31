@@ -51,10 +51,6 @@ const Login = () => {
           required
         />
         <button>{currentState === "Sign Up" ? "Sign Up" : "Login"}</button>
-        <div className="login-term">
-          <input type="checkbox" />
-          <p>Agree to Terms of Use & Privacy Policy.</p>
-        </div>
         <div className="login-forgot">
           {currentState === "Sign Up" ? (
             <p className="login-toggle">
