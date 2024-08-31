@@ -147,3 +147,10 @@ img.dot{
         display: none;
     }
 }
+
+@media (max-width:768px){
+    .chat-box{
+        height: 100vh;
+
+    }
+}
