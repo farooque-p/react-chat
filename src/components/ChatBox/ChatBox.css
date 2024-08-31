@@ -30,7 +30,6 @@
 img.dot{
     width: 15px !important;
 }
-
 .chat-input{
     display: flex;
     align-items: center;
@@ -65,7 +64,6 @@ img.dot{
     display: flex;
     flex-direction: column-reverse;
 }
-
 .s-msg div img, .r-msg div img{
     width: 27px;
     aspect-ratio: 1/1;
@@ -116,7 +114,6 @@ img.dot{
 }
 .chat-welcome img{
     width: 60px;
-
 }
 .chat-welcome p{
     font-size: 20px;
@@ -127,9 +124,7 @@ img.dot{
     width: 50%;
     border-radius: 8px;
     margin-bottom: 10px;
-
 }
-
 .chat-user .arrow-icon{
     display: none;
 }
@@ -151,6 +146,5 @@ img.dot{
 @media (max-width:768px){
     .chat-box{
         height: 100vh;
-
     }
 }
